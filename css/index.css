@@ -1,0 +1,56 @@
+
+
+
+
+div {font-weight:bolder; color:whitesmoke; text-align: center; font-size: 70px}
+
+div span {background-color:#F26722;
+padding-right: 10px;
+padding-left: 10px}
+    
+
+<!-- The following code for the nav bar is from: https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ -->
+
+ 
+center {text-align: center
+
+}
+ 
+ul {
+  list-style-type: none;
+ text-align: center
+}
+ 
+li {
+
+  height: 25px;
+  display: inline-block;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #666;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
